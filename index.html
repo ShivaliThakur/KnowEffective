@@ -1,0 +1,485 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title> SDG's </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&display=swap" rel="stylesheet">
+  
+  
+    
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background-color: 'yellow'>
+    <center>
+        <div id="heading"> 
+            <h1>Sustainable Development Goals</h1>
+            <h3> And ways to take action upon them</h3>
+        </div>
+        <div class="goals">
+            <img src="1.png" data-toggle="modal" data-target="#myModal1">
+            <img src="2.png" data-toggle="modal" data-target="#myModal2">
+            <img src="3.png" data-toggle="modal" data-target="#myModal3">
+            <img src="4.png" data-toggle="modal" data-target="#myModal4">
+            <img src="5.png" data-toggle="modal" data-target="#myModal5">
+            <img src="6.png" data-toggle="modal" data-target="#myModal6">
+        </div>
+        <div class="goals">
+            <img src="7.png" data-toggle="modal" data-target="#myModal7">
+            <img src="8.png" data-toggle="modal" data-target="#myModal8">
+            <img src="9.png" data-toggle="modal" data-target="#myModal9">
+            <img src="10.png" data-toggle="modal" data-target="#myModal10">
+            <img src="11.png" data-toggle="modal" data-target="#myModal11">
+            <img src="12.png" data-toggle="modal" data-target="#myModal12">
+        </div>
+        <div class="goals">
+            <img src="13.png" data-toggle="modal" data-target="#myModal13">
+            <img src="14.png" data-toggle="modal" data-target="#myModal14">
+            <img src="15.png" data-toggle="modal" data-target="#myModalland">
+            <img src="16.png" data-toggle="modal" data-target="#myModal16">
+            <img src="17.png" data-toggle="modal" data-target="#myModal17">
+            <img src="logo.png" data-toggle="modal" data-target="#myModalgoal">
+        </div>
+
+        <div id="myModal1" style= "background-image: gold;" class="modal fade"> 
+            <div class="modal-content" style= "background-color: rgb(0, 200, 255);">
+              <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                <h2> No Poverty
+                </h2>
+                <button type="button" class='close' data-dismiss="modal">&times;</button>   </div>
+                <div style= "font-size: large; color:blueviolet;" class="modal-body">
+                    Purpose:
+                    To end poverty in all its forms.
+                </div>
+                <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                    <h2> Actions to create an impact
+                    </h2>
+                    </div>
+                    <div style= "font-size: large; color:midnightblue;" class="modal-body">
+                        🔷We can donate resources like books, medicines, clothes which are not useful to us to the needy and poor.
+                        <br>🔷We should provide more oppurtunities and facilities to the poor to help them cope up.<br><br>
+                        <img src="donate.jpg">
+                        <br><br>
+                        <a href="https://www.un.org/sustainabledevelopment/poverty/"> Learn More </a>
+                    </div>
+            </div>
+          </div>
+
+
+          <div id="myModal2" style= "background-image: gold;" class="modal fade"> 
+            <div class="modal-content" style= "background-color: rgb(0, 200, 255);">
+              <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                <h2> Zero Hunger
+                </h2>
+                <button type="button" class='close' data-dismiss="modal">&times;</button>   </div>
+                <div style= "font-size: large; color:blueviolet;" class="modal-body">
+                    Purpose:
+                    To ensure everyone has nutritious food to eat atleast 2 times a day.
+                </div>
+                <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                    <h2> Actions to create an impact
+                    </h2>
+                    </div>
+                    <div style= "font-size: large; color:midnightblue;" class="modal-body">
+                        🔷We can give food to the needy people if we are priveleged enough.
+                        <br>🔷We can contact NGO's to donate leftover food from functions<br>
+                        🔷We should take necessary amount of food in our plate so the rest can feed someone else.<br><br>
+                        <img src="food.jpg">
+                        <br><br>
+                        <a href="https://www.un.org/sustainabledevelopment/hunger/"> Learn More </a>
+                    </div>
+            </div>
+          </div>
+
+          <div id="myModal3" style= "background-image: gold;" class="modal fade"> 
+            <div class="modal-content" style= "background-color: rgb(0, 200, 255);">
+              <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                <h2> Good Health and Well Being
+                </h2>
+                <button type="button" class='close' data-dismiss="modal">&times;</button>   </div>
+                <div style= "font-size: large; color:blueviolet;" class="modal-body">
+                    Purpose:
+                    To provide good healthcare facilities in every area and improve life expectancy
+                </div>
+                <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                    <h2> Actions to create an impact
+                    </h2>
+                    </div>
+                    <div style= "font-size: large; color:midnightblue;" class="modal-body">
+                        🔷Their should be nursing homes, clinics in every area.
+                        <br>🔷We can give equal chances and facilities to the poor when waiting for the doctor.<br><br>
+                        <img src="clinic.jpg">
+                        <br><br>
+                        <a href="https://www.un.org/sustainabledevelopment/health/"> Learn More </a>
+                    </div>
+            </div>
+          </div>
+
+          <div id="myModal4" style= "background-image: gold;" class="modal fade"> 
+            <div class="modal-content" style= "background-color: rgb(0, 200, 255);">
+              <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                <h2> Quality Education
+                </h2>
+                <button type="button" class='close' data-dismiss="modal">&times;</button>   </div>
+                <div style= "font-size: large; color:blueviolet;" class="modal-body">
+                    Purpose:
+                    To provide quality primary and secondary eduction and make the population literate
+                </div>
+                <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                    <h2> Actions to create an impact
+                    </h2>
+                    </div>
+                    <div style= "font-size: large; color:midnightblue;" class="modal-body">
+                        🔷We can teach poor, unfacilated children when we are free.
+                        <br>🔷We can distribute our older books to underpriveleged children eager to study <br><br>
+                        <img src="edu.jpg">
+                        <br><br>
+                        <a href="https://www.un.org/sustainabledevelopment/education/"> Learn More </a>
+                    </div>
+            </div>
+          </div>
+       
+
+          <div id="myModal5" style= "background-image: gold;" class="modal fade"> 
+            <div class="modal-content" style= "background-color: rgb(0, 200, 255);">
+              <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                <h2> Gender Equality
+                </h2>
+                <button type="button" class='close' data-dismiss="modal">&times;</button>   </div>
+                <div style= "font-size: large; color:blueviolet;" class="modal-body">
+                    Purpose:
+                    To ensure women are treated equally in every field
+                </div>
+                <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                    <h2> Actions to create an impact
+                    </h2>
+                    </div>
+                    <div style= "font-size: large; color:midnightblue;" class="modal-body">
+                        🔷Take stand against any child marriage or trafficking
+                        <br>🔷Make women feel they are equal in ability and value <br>
+                        🔷Respecting home makers and non-working women and understand their contribution <br><br>
+                        <img src="equal.jpg">
+                        <br><br>
+                        <a href="https://www.un.org/sustainabledevelopment/gender-equality/"> Learn More </a>
+                    </div>
+            </div>
+          </div>
+
+          <div id="myModal6" style= "background-image: gold;" class="modal fade"> 
+            <div class="modal-content" style= "background-color: rgb(0, 200, 255);">
+              <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                <h2> Clean Water and Sanitation
+                </h2>
+                <button type="button" class='close' data-dismiss="modal">&times;</button>   </div>
+                <div style= "font-size: large; color:blueviolet;" class="modal-body">
+                    Purpose:
+                    To ensure potable water and basic sanitation is accessible to everybody
+                </div>
+                <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                    <h2> Actions to create an impact
+                    </h2>
+                    </div>
+                    <div style= "font-size: large; color:midnightblue;" class="modal-body">
+                        🔷Start taking small measures which save water
+                        <br>🔷Keeping our surroundings clean <br>
+                        🔷Take measures like Rain Water Harvesting <br><br>
+                        <img src="water.jpg">
+                        <br><br>
+                        <a href="https://www.un.org/sustainabledevelopment/water-and-sanitation/"> Learn More </a>
+                    </div>
+            </div>
+          </div>
+
+          <div id="myModal7" style= "background-image: gold;" class="modal fade"> 
+            <div class="modal-content" style= "background-color: rgb(0, 200, 255);">
+              <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                <h2> Affordable & Clean Energy
+                </h2>
+                <button type="button" class='close' data-dismiss="modal">&times;</button>   </div>
+                <div style= "font-size: large; color:blueviolet;" class="modal-body">
+                    Purpose:
+                    To generate renewable and sustainable energy and make it available 
+                </div>
+                <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                    <h2> Actions to create an impact
+                    </h2>
+                    </div>
+                    <div style= "font-size: large; color:midnightblue;" class="modal-body">
+                        🔷Start saving energy and valuing it because of shortage of fossil fuels
+                        <br>🔷Switching to more productive source of energy. like: installing solar panels. <br><br>
+                        <img src="ener.jpg">
+                        <br><br>
+                        <a href="https://www.un.org/sustainabledevelopment/energy/"> Learn More </a>
+                    </div>
+            </div>
+          </div>
+
+          <div id="myModal8" style= "background-image: gold;" class="modal fade"> 
+            <div class="modal-content" style= "background-color: rgb(0, 200, 255);">
+              <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                <h2> Decent Work and Economic Growth
+                </h2>
+                <button type="button" class='close' data-dismiss="modal">&times;</button>   </div>
+                <div style= "font-size: large; color:blueviolet;" class="modal-body">
+                    Purpose:
+                    To improve the economy and improve the situation of poverty. 
+                </div>
+                <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                    <h2> Actions to create an impact
+                    </h2>
+                    </div>
+                    <div style= "font-size: large; color:midnightblue;" class="modal-body">
+                        🔷Manage between our personal and professional life to create a healthy workspace
+                        <br>🔷Promoting the country's GDP by buying things which are eaily available and made in our locality <br><br>
+                        <img src="work.jpg">
+                        <br><br>
+                        <a href="https://www.un.org/sustainabledevelopment/economic-growth/"> Learn More </a>
+                    </div>
+            </div>
+          </div>
+       
+
+          <div id="myModal9" style= "background-image: gold;" class="modal fade"> 
+            <div class="modal-content" style= "background-color: rgb(0, 200, 255);">
+              <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                <h2> Industries, Infrastructure and Innovation
+                </h2>
+                <button type="button" class='close' data-dismiss="modal">&times;</button>   </div>
+                <div style= "font-size: large; color:blueviolet;" class="modal-body">
+                    Purpose:
+                    To build resilient infrastructure, promote sustainable industrialization and foster innovation 
+                </div>
+                <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                    <h2> Actions to create an impact
+                    </h2>
+                    </div>
+                    <div style= "font-size: large; color:midnightblue;" class="modal-body">
+                        🔷Promote new start ups and emerging entrepreneurs
+                        <br>🔷Promote and buy things which are made by sustainable way and create less harm <br><br>
+                        <img src="industry.jpg">
+                        <br><br>
+                        <a href="https://www.un.org/sustainabledevelopment/infrastructure-industrialization/"> Learn More </a>
+                    </div>
+            </div>
+          </div>
+
+          <div id="myModal10" style= "background-image: gold;" class="modal fade"> 
+            <div class="modal-content" style= "background-color: rgb(0, 200, 255);">
+              <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                <h2> Reduced Inequalities
+                </h2>
+                <button type="button" class='close' data-dismiss="modal">&times;</button>   </div>
+                <div style= "font-size: large; color:blueviolet;" class="modal-body">
+                    Purpose:
+                    To reduce inequality within and among countries
+                </div>
+                <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                    <h2> Actions to create an impact
+                    </h2>
+                    </div>
+                    <div style= "font-size: large; color:midnightblue;" class="modal-body">
+                        🔷Believe that everyone is as abled and equal to us.
+                        <br>🔷Provide facilities and oppurtunities for specially abled and inferior people<br><br>
+                        <img src="equal2.jpg">
+                        <br><br>
+                        <a href="https://www.un.org/sustainabledevelopment/inequality/"> Learn More </a>
+                    </div>
+            </div>
+          </div>
+
+          <div id="myModal11" style= "background-image: gold;" class="modal fade"> 
+            <div class="modal-content" style= "background-color: rgb(0, 200, 255);">
+              <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                <h2> Sustainable cities and communities
+                </h2>
+                <button type="button" class='close' data-dismiss="modal">&times;</button>   </div>
+                <div style= "font-size: large; color:blueviolet;" class="modal-body">
+                    Purpose:
+                    Make cities inclusive, safe, resilient and sustainable
+                </div>
+                <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                    <h2> Actions to create an impact
+                    </h2>
+                    </div>
+                    <div style= "font-size: large; color:midnightblue;" class="modal-body">
+                        🔷Maintain green spaces and provide renewable, safe energy
+                        <br>🔷Provide safe and inclusive housing to everyone<br><br>
+                        <img src="city.jpg">
+                        <br><br>
+                        <a href="https://www.un.org/sustainabledevelopment/cities/"> Learn More </a>
+                    </div>
+            </div>
+          </div>
+
+          <div id="myModal12" style= "background-image: gold;" class="modal fade"> 
+            <div class="modal-content" style= "background-color: rgb(0, 200, 255);">
+              <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                <h2> Responsible Consumption and Production
+                </h2>
+                <button type="button" class='close' data-dismiss="modal">&times;</button>   </div>
+                <div style= "font-size: large; color:blueviolet;" class="modal-body">
+                    Purpose:
+                    Ensure sustainable consumption and production patterns
+                </div>
+                <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                    <h2> Actions to create an impact
+                    </h2>
+                    </div>
+                    <div style= "font-size: large; color:midnightblue;" class="modal-body">
+                        🔷Make reduction in consumption so it does not exceed the production
+                        <br>🔷Start producing more in local areas and provide employment<br><br>
+                        <img src="12.png">
+                        <br><br>
+                        <a href="https://www.un.org/sustainabledevelopment/sustainable-consumption-production/"> Learn More </a>
+                    </div>
+            </div>
+          </div>
+
+          <div id="myModal13" style= "background-image: gold;" class="modal fade"> 
+            <div class="modal-content" style= "background-color: rgb(0, 200, 255);">
+              <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                <h2> Climate Action
+                </h2>
+                <button type="button" class='close' data-dismiss="modal">&times;</button>   </div>
+                <div style= "font-size: large; color:blueviolet;" class="modal-body">
+                    Purpose:
+                    Take urgent action to combat climate change and its impacts
+                </div>
+                <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                    <h2> Actions to create an impact
+                    </h2>
+                    </div>
+                    <div style= "font-size: large; color:midnightblue;" class="modal-body">
+                        🔷Plants trees and reserve forest covers
+                        <br>🔷Switch to more eco-friendly alternatives<br><br>
+                        <img src="tree.jpg">
+                        <br><br>
+                        <a href="https://www.un.org/sustainabledevelopment/climate-change/"> Learn More </a>
+                    </div>
+            </div>
+          </div>
+
+          <div id="myModal14" style= "background-image: gold;" class="modal fade"> 
+            <div class="modal-content" style= "background-color: rgb(0, 200, 255);">
+              <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                <h2> Life Below Water
+                </h2>
+                <button type="button" class='close' data-dismiss="modal">&times;</button>   </div>
+                <div style= "font-size: large; color:blueviolet;" class="modal-body">
+                    Purpose:
+                  Conserve and sustainably use the oceans, seas and marine resources
+                  </div>
+                <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                    <h2> Actions to create an impact
+                    </h2>
+                    </div>
+                    <div style= "font-size: large; color:midnightblue;" class="modal-body">
+                        🔷Take action against over fishing and reduce the consumption of sea food
+                        <br>🔷Keep the water bodies clean and do not throw waste in them.<br><br>
+                        <img src="fish.jpg">
+                        <br><br>
+                        <a href="https://www.un.org/sustainabledevelopment/oceans/"> Learn More </a>
+                    </div>
+            </div>
+          </div>
+
+          <div id="myModalland" style= "background-image: gold;" class="modal fade"> 
+            <div class="modal-content" style= "background-color: rgb(0, 200, 255);">
+              <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                <h2> Life on Land
+                </h2>
+                <button type="button" class='close' data-dismiss="modal">&times;</button>   </div>
+                <div style= "font-size: large; color:blueviolet;" class="modal-body">
+                    Purpose:
+                    Sustainably manage forests, combat desertification, halt and reverse land degradation, halt biodiversity loss>
+                    </div>
+                <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                    <h2> Actions to create an impact
+                    </h2>
+                    </div>
+                    <div style= "font-size: large; color:midnightblue;" class="modal-body">
+                        🔷Stop practice like poaching and hunting
+                        <br>🔷Make more wildlife centuries for animals to survive in their natural habitat<br><br>
+                        <img src="land.jpg">
+                        <br><br>
+                        <a href="https://www.un.org/sustainabledevelopment/biodiversity/"> Learn More </a>
+                    </div>
+            </div>
+          </div>
+
+
+
+          <div id="myModal16" style= "background-image: gold;" class="modal fade"> 
+            <div class="modal-content" style= "background-color: rgb(0, 200, 255);">
+              <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                <h2> Peace, Justice and Strong Institution
+                </h2>
+                <button type="button" class='close' data-dismiss="modal">&times;</button>   </div>
+                <div style= "font-size: large; color:blueviolet;" class="modal-body">
+                    Purpose:
+                    Promote just, peaceful and inclusive societies
+                    </div>
+                <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                    <h2> Actions to create an impact
+                    </h2>
+                    </div>
+                    <div style= "font-size: large; color:midnightblue;" class="modal-body">
+                        🔷Provide justice to everyone
+                        <br>🔷Make a strong and peaceful law and order and implement it well<br><br>
+                        <img src="peace.jpg">
+                        <br><br>
+                        <a href="https://www.un.org/sustainabledevelopment/peace-justice/"> Learn More </a>
+                    </div>
+            </div>
+          </div>
+
+          <div id="myModal17" style= "background-image: gold;" class="modal fade"> 
+            <div class="modal-content" style= "background-color: rgb(0, 200, 255);">
+              <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                <h2> Partnership for the goals
+                </h2>
+                <button type="button" class='close' data-dismiss="modal">&times;</button>   </div>
+                <div style= "font-size: large; color:blueviolet;" class="modal-body">
+                    Purpose:
+                    Revitalize the global partnership for sustainable development
+                    </div>
+                <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                    <h2> Actions to create an impact
+                    </h2>
+                    </div>
+                    <div style= "font-size: large; color:midnightblue;" class="modal-body">
+                        🔷Understand the interconnectedness of the SDG's and their value in the today's world
+                        <br>🔷Make small changes at your level to promote these 17 goals and ensure a better future<br><br>
+                        <img src="17.png">
+                        <br><br>
+                        <a href="https://www.un.org/sustainabledevelopment/globalpartnerships/"> Learn More </a>
+                    </div>
+            </div>
+          </div>
+
+          <div id="myModalgoal" style= "background-image: gold;" class="modal fade"> 
+            <div class="modal-content" style= "background-color: rgb(0, 200, 255);">
+              <div class="modal-header" style= "font-family: 'Alumni Sans Inline One', cursive; background-color: greenyellow;">
+                <h2> Take Action for the Sustainable Development Goals
+                </h2>
+                <button type="button" class='close' data-dismiss="modal">&times;</button>   </div>
+                <div style= "font-size: large; color:blueviolet;" class="modal-body">
+                    The Sustainable Development Goals are the blueprint to achieve a better and more sustainable future for all. They address the global challenges we face, including poverty, inequality, climate change, environmental degradation, peace and justice. Learn more and take action.
+                        <hr>
+                        <img style="height: 200; width: 250;" src="goals.png">
+                        <br><br>
+                        <a href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/"> Learn More </a>
+                    </div>
+            </div>
+          </div>
+    </center>
+</body>
